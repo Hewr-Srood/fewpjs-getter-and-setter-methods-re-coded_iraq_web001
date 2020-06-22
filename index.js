@@ -27,7 +27,7 @@ class Circle {
 //   constructor(radius) {
 //     this.radius=radius;
 //   }
-// 
+//
 //   set diameter(diameter){
 //     this.diameter= diameter;
 //   }
