@@ -16,10 +16,10 @@ class Circle {
   get circumference(){
     return  Math.PI *this.diameter || this.circumference;
   }
-  set area(radis){
-    this.area=Math.PI * Math.pow(this.radius, 2);
+  set area(area){
+    this.area=area;
   }
   get area (){
-    return this.area;
+    return this.area ||Math.PI * Math.pow(this.radius, 2);;
   }
 }
